@@ -4,9 +4,9 @@ Still-image avatars for [OpenCode](https://opencode.ai) agents in the TUI. The p
 
 ## What it looks like
 
-![Portrait of the agent shown in the sidebar](assets/thrall.webp)
+![OpenCode TUI with the sidebar portrait in the author's setup](assets/screenshot.png)
 
-*The sidebar portrait in the author's personal setup (Warcraft III: Reforged hero icon, © Blizzard Entertainment). The icon is shown as illustration only — it is not part of the plugin.*
+*The author's OpenCode TUI (Hyprland, kitty). Private details in the capture are blurred. The portrait shown is a Warcraft III: Reforged icon (© Blizzard Entertainment) from the author's personal setup — it is not part of the plugin.*
 
 ## Install
 
@@ -122,8 +122,8 @@ To force one protocol, set `protocol` in the options. The environment variable `
 
 ## Artwork and licensing
 
-- The plugin itself ships no character art. You supply your own images.
-- The single image in `assets/thrall.webp` is a Warcraft III: Reforged icon (© Blizzard Entertainment). It is included only to illustrate the author's setup.
+- The plugin ships no art. You supply your own images.
+- The demo imagery in `assets/` is the author's setup, shown as an illustration. The game icon in it is © Blizzard Entertainment.
 - Do not commit third-party copyrighted art to a public repository unless you have the right to redistribute it.
 
 ## License
