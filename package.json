@@ -1,0 +1,58 @@
+{
+  "name": "opencode-agent-avatars",
+  "version": "0.2.0",
+  "description": "Still-image avatars for OpenCode agents in the TUI. Renders the active agent's portrait in the sidebar, with a colored text fallback.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./tui": "./dist/tui.js"
+  },
+  "oc-plugin": [
+    "server",
+    "tui"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-tui",
+    "tui",
+    "avatar",
+    "agent"
+  ],
+  "license": "MIT",
+  "repository": "github:adam-benyekkou/opencode-agent-avatars",
+  "homepage": "https://github.com/adam-benyekkou/opencode-agent-avatars#readme",
+  "bugs": {
+    "url": "https://github.com/adam-benyekkou/opencode-agent-avatars/issues"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.0",
+    "@opencode/theme": ">=2.0.0",
+    "@opentui/core": ">=0.8.0",
+    "@opentui/solid": ">=0.8.0",
+    "solid-js": ">=1.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-typescript": "^7.29.7",
+    "@opencode/plugin": "^2.2.3",
+    "@opentui/core": "^0.8.0",
+    "@opentui/solid": "^0.8.0",
+    "@types/node": "^26.6.6",
+    "babel-preset-solid": "^1.9.16",
+    "solid-js": "^1.9.18",
+    "typescript": "^5.0.0"
+  }
+}
